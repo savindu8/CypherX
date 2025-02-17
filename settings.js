@@ -15,7 +15,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //=================================================//
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'XPLOADER-BOT:~3nZXlC6Y#1fniFuVPABtT85MnGYh7zcxeN3oAcem_z_i9RthtQOg' 
 //Enter your Xploader session id here; must start with XPLOADER-BOT:~
 
 //=================================================//
@@ -23,16 +23,16 @@ global.botname = process.env.BOT_NAME || 'CypherX'
 //Your desired bot name
 
 //=================================================//
-global.ownernumber = process.env.OWNER_NUMBER || '254754783972' 
+global.ownernumber = process.env.OWNER_NUMBER || '94764766973' 
 //Type your main number here
 
 //=================================================//
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['254796180105', '254712345678'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['94764766973', '94764766973'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //=================================================//
-global.ownername = process.env.OWNER_NAME || 'Tylor' 
+global.ownername = process.env.OWNER_NAME || 'Buvindu' 
 //Type your name here
 
 //=================================================//
@@ -54,7 +54,7 @@ global.prefixz = process.env.PREFIX || '.'
 //Set your desired prefix
 
 //=================================================//
-global.mode = process.env.MODE || 'public';
+global.mode = process.env.MODE || 'private';
 // Set to 'private' to enable private mode, otherwise default is 'public'
 
 //=================================================//
@@ -62,7 +62,7 @@ global.statusemoji = process.env.STATUS_EMOJI || '🧡'
 //Enter the emoji that you wish to be reacted to statuses 
 
 //=================================================//
-global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
+global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'false'
 // set true to enable and false to disable auto status view
 
 //=================================================//
@@ -70,7 +70,7 @@ global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'false'
 // set true to enable and false to disable auto status react
 
 //=================================================//
-global.alwaysonline = process.env.ALWAYS_ONLINE || 'true'
+global.alwaysonline = process.env.ALWAYS_ONLINE || 'false'
 //Set true to make the bot online 24/7 or set false to disable always online
 
 
@@ -94,7 +94,7 @@ global.welcome = process.env.WELCOME_MSG || 'false'
 // set true to enable and false to disable welcoming and left messages to groups upon joining or leaving groups
 
 //=================================================//
-global.timezones = process.env.TIMEZONE || "Africa/Nairobi" 
+global.timezones = process.env.TIMEZONE || "Asia/Colombo" 
 //Don't edit this if you don't know!
 
 //=================================================//
